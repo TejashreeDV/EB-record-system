@@ -1,0 +1,22 @@
+from tkinter import *
+from tkiner import messagebox
+
+def out():
+  destroy()
+c=("arial",14)
+Label(text="EB Bill System",font=("algerian",30),fg="blue").pack()
+Label(text="Consumer Number",font=c)
+Label(text="Consumer Name",font=c)
+Label(text="Address",font=c)
+Label(text="Mobile no.",font=c)
+Label(text="Date of Application",font=c)
+Label(text="Phase",font=c)
+Label(text="Tariff",font=c)
+Label(text="Category of consumer",font=c)
+Label(text="Meter Number",font=c)
+Label(text="Caution Deposit",font=c)
+Label(text="Aadhar Number",font=c)
+Label(text="Pan Card",font=c)
+
+
+
